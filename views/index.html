@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>농장물 이력 관리 앱</title>
+    <title>성적 이력 관리 앱</title>
     <link rel="stylesheet" type="text/css" href="css/document-registry.css" />
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/sha256.min.js"></script>
@@ -19,8 +19,8 @@
 <body>
     <header id="menu">
         <a href="#" id="linkHome">Home</a>
-        <a href="#" id="linkSubmitDocument">농작물 이력 등록</a>
-        <a href="#" id="linkVerifyDocument">농작물 이력 검증</a>
+        <a href="#" id="linkSubmitDocument">성적 등록</a>
+        <a href="#" id="linkVerifyDocument">성적 검증</a>
     </header>
 
     <main>
@@ -33,13 +33,13 @@
       
 
         <section id="viewHome">
-            <h1>Agriculture DApp with MetaMask</h1>
-            Welcome to the "Agriculture DApp with MetaMask" DApp. This
+            <h1>Grade DApp with MetaMask</h1>
+            Welcome to the "Grade DApp with MetaMask" DApp. This
             decentralized app runs on the Etherereum blockchain network and
             holds a registry of items in a Solidity smart contract.
             <ul>
-                <li>농장물 이력관리를 확인 할 수 있습니다.</li>
-                <li><b>사용자는</b> 농장물 이력을 등록할 수 있습니다.</li>
+                <li>성적 관리를 확인 할 수 있습니다.</li>
+                <li><b>사용자는</b> 성적을 등록할 수 있습니다.</li>
                 <li>
                     Contract <b>address</b> (at Ropsten testnet):
                     <a href="#" id="contractLink" target="_blank"></a>
@@ -48,19 +48,19 @@
         </section>
 
         <section id="viewSubmitDocument">
-            <h1>농작물 이력관리 등록</h1>
-            <p>농작물을 등록해 주세요. 수량, 품명, 지역을 입력해 주시면 됩니다.</p>
+            <h1>성적 관리 등록</h1>
+            <p>성적을 등록해 주세요. 성적, 이름, 과목을 입력해 주시면 됩니다.</p>
 
-                <label>수량:
-                    <input type="text" id="pronumber" name="pronumber" value="10" placeholder="1 many..">
+                <label>성적:
+                    <input type="text" id="pronumber" name="pronumber" value="98" placeholder="1 many..">
                 </label>
                 <br>
-                <label>품명:
-                    <input type="text" id="proname" name="proname" value="감귤" placeholder="What is ..">
+                <label>이름:
+                    <input type="text" id="proname" name="proname" value="홍길동" placeholder="What is ..">
                 </label>
                 <br>
-                <label>지역:
-                    <input type="text" id="proloc" name="proloc" value="제주" placeholder="Where is ..">
+                <label>과목:
+                    <input type="text" id="proloc" name="proloc" value="수학" placeholder="Where is ..">
                 </label>
                 <br>
                 <label>제출:
